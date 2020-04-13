@@ -62,7 +62,7 @@ L
   .addTo(map);
 
 // Here we make an AJAX call that retrieves our earthquake geoJSON data.
-d3.json("data/all_week.geojson", function(data) {
+d3.json("static/all_week.geojson", function(data) {
     console.log(data);
 
     // This function determines the color of the marker based on the magnitude of the earthquake.
